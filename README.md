@@ -15,17 +15,33 @@ Docker 컨테이너에서 `GPU 0: NVIDIA Thor`를 확인했습니다. NGC 샘플
 
 ### 1. 카카오톡 영상 · 짧은 장면 설명
 
-| 원본 영상 · 약 2.3초 | VSS 질문과 답변 |
-| --- | --- |
-| ![손이 흰색 용기를 들어 올리는 원본 영상](assets/kakao-preview.gif) | ![카카오톡 영상 장면 설명 질문과 VSS 답변](assets/kakao-qa.png) |
+<table>
+  <thead>
+    <tr><th>원본 영상 · 약 2.3초</th><th>VSS 질문과 답변</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="top"><img src="assets/kakao-preview.gif" width="252" alt="손이 흰색 용기를 들어 올리는 원본 영상"></td>
+      <td valign="top"><a href="assets/kakao-qa.png"><img src="assets/kakao-qa.png" width="440" alt="카카오톡 영상 장면 설명 질문과 VSS 답변"></a></td>
+    </tr>
+  </tbody>
+</table>
 
 VSS는 손이 키보드 근처의 흰색 용기를 잡아 들어 올리는 장면이라고 답했습니다. [원본 MP4](assets/kakao-video.mp4)
 
 ### 2. 교통 시뮬레이션 · 충돌 장면과 발생 시점
 
-| 원본 발췌 · 75.8–84.8초 | VSS 질문과 답변 |
-| --- | --- |
-| ![두 차량이 접근해 충돌하고 멈추는 9초 영상](assets/traffic-preview.gif) | ![교통 영상의 이벤트를 묻는 질문과 79.8초 충돌 답변](assets/traffic-qa.png) |
+<table>
+  <thead>
+    <tr><th>원본 발췌 · 75.8–84.8초</th><th>VSS 질문과 답변</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="top"><img src="assets/traffic-preview.gif" width="300" alt="두 차량이 접근해 충돌하고 멈추는 9초 영상"></td>
+      <td valign="top"><a href="assets/traffic-qa.png"><img src="assets/traffic-qa.png" width="440" alt="교통 영상의 이벤트를 묻는 질문과 79.8초 충돌 답변"></a></td>
+    </tr>
+  </tbody>
+</table>
 
 VSS는 **79.8초**에 빨간색 차량과 노란색 차량이 충돌했다고 답했습니다. 왼쪽 영상은 충돌 전후 **9초**를 발췌한 장면입니다. [NVIDIA NGC에서 전체 샘플 받기](https://docs.nvidia.com/vss/getting-started/quickstart#download-sample-data-from-ngc)
 
